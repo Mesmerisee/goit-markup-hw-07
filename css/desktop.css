@@ -1,0 +1,73 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .hero {
+    background-size: 1440px 100%;
+    padding: 188px 0;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 56px;
+  }
+  .services-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+  .services-icon-item {
+    width: 64px;
+    height: 64px;
+  }
+  .services-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .services-subtitle {
+    font-size: 20px;
+  }
+  .services-list {
+    display: flex;
+    flex-grow: 1;
+    gap: 24px;
+  }
+  .gallery {
+    padding: 120px 0;
+  }
+  .gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .gallery-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .team {
+    background: #f4f4fd;
+    padding: 120px 0;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .customers {
+    padding: 130px 0 120px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-container {
+    display: flex;
+  }
+}
