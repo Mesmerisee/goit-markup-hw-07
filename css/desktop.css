@@ -1,0 +1,37 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .services {
+    padding-top: 120px;
+  }
+  .team {
+    padding: 120px 0;
+  }
+  .customers {
+    padding: 130px 0 120px;
+  }
+  .services-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+  .services-icon-item {
+    width: 64px;
+    height: 64px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+}
