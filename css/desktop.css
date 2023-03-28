@@ -2,6 +2,62 @@
   .container {
     max-width: 1158px;
   }
+  .header-navigation {
+    display: flex;
+    align-items: center;
+  }
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  .header-item {
+  }
+  .header-item-link {
+    color: #2e2f42;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+  }
+  .header-item-link:hover,
+  .header-item-link:focus {
+    color: #404bbf;
+  }
+  .header-item-link.active {
+    color: #404bbf;
+  }
+  .header-item-link.active::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+  }
+  .header-address {
+    margin-left: auto;
+  }
+  .header-address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .header-address-list-item {
+  }
+  .header-address-list-link {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-address-list-link:hover,
+  .header-address-list-link:focus {
+    color: #404bbf;
+  }
   .hero {
     background-size: 1440px 100%;
     padding: 188px 0;

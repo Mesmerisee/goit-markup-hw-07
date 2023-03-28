@@ -25,53 +25,48 @@
     <header class="header">
       <div class="container header-container">
         <a href="./index.html" class="header-link link"
-        ><span class="header-link-span">Web</span>Studio</a>
-        <button type="button" class="menu-open-button">
+          ><span class="header-link-span">Web</span>Studio</a
+        >
+        <nav class="header-navigation">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-item-link text link active"
+                >Studio</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-item-link text link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="" class="header-item-link text link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list list">
+            <li class="header-address-list-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-address-list-link text link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-address-list-item">
+              <a
+                href="tel:+110001111111"
+                class="header-address-list-link text link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button type="button" class="menu-open-button js-open-menu">
           <svg class="menu-open-item" width="32px" height="22px">
             <use href="./images/symbol-defs.svg#icon-menu"></use>
           </svg>
-        <div class="header-nav-wrap">
-            <button type="button" class="menu-close-button">
-              <svg class="menu-close-item">
-                <use href="./images/symbol-defs.svg#icon-close-button"></use>
-              </svg>
-            </button>
-            <nav class="header-navigation">
-              <ul class="header-list list">
-                <li class="header-item">
-                  <a href="./index.html" class="header-item-link text link active"
-                    >Studio</a
-                  >
-                </li>
-                <li class="header-item">
-                  <a href="./portfolio.html" class="header-item-link text link"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="header-item">
-                  <a href="" class="header-item-link text link">Contacts</a>
-                </li>
-              </ul>
-            </nav>
-            <address class="header-address">
-              <ul class="header-address-list list">
-                <li class="header-address-list-item">
-                  <a
-                    href="mailto:info@devstudio.com"
-                    class="header-address-list-link text link"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="header-address-list-item">
-                  <a
-                    href="tel:+110001111111"
-                    class="header-address-list-link text link"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
+        </button>
       </div>
     </header>
     <main>
@@ -84,7 +79,7 @@
           </button>
         </div>
       </section>
-      
+
       <!-- Services section -->
       <section class="services">
         <div class="container services-container">
@@ -141,15 +136,18 @@
           </ul>
         </div>
       </section>
-     
+
       <!-- Services pictures section -->
       <section class="gallery">
         <div class="gallery-container container">
           <h2 class="gallery-title">What are we doing</h2>
           <ul class="gallery-list list gallery-content">
             <li class="gallery-item">
-              <img srcset="./images/services-1.jpg 1x,
-              ./images/services-1-2x.jpg 2x"
+              <img
+                srcset="
+                  ./images/services-1.jpg    1x,
+                  ./images/services-1-2x.jpg 2x
+                "
                 src="./images/services-1.jpg"
                 alt="Services"
                 width="360"
@@ -157,8 +155,11 @@
               />
             </li>
             <li class="gallery-item">
-              <img srcset="./images/services-2.jpg 1x,
-              ./images/services-2-2x.jpg 2x"
+              <img
+                srcset="
+                  ./images/services-2.jpg    1x,
+                  ./images/services-2-2x.jpg 2x
+                "
                 src="./images/services-2.jpg"
                 alt="Services"
                 width="360"
@@ -166,8 +167,11 @@
               />
             </li>
             <li class="gallery-item">
-              <img srcset="./images/services-3.jpg 1x,
-              ./images/services-3-2x.jpg 2x"
+              <img
+                srcset="
+                  ./images/services-3.jpg    1x,
+                  ./images/services-3-2x.jpg 2x
+                "
                 src="./images/services-3.jpg"
                 alt="Services"
                 width="360"
@@ -177,15 +181,15 @@
           </ul>
         </div>
       </section>
-      
+
       <!-- Team section  -->
       <section class="team">
         <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img srcset="./images/team-1.jpg 1x,
-              ./images/team-1-2x.jpg 2x"
+              <img
+                srcset="./images/team-1.jpg 1x, ./images/team-1-2x.jpg 2x"
                 src="./images/team-1.jpg"
                 alt="Team"
                 width="264"
@@ -233,8 +237,8 @@
               </div>
             </li>
             <li class="team-item">
-              <img srcset="./images/team-2.jpg 1x,
-              ./images/team-2-2x.jpg 2x"
+              <img
+                srcset="./images/team-2.jpg 1x, ./images/team-2-2x.jpg 2x"
                 src="./images/team-2.jpg"
                 alt="Team"
                 width="264"
@@ -282,8 +286,8 @@
               </div>
             </li>
             <li class="team-item">
-              <img srcset="./images/team-3.jpg 1x,
-              ./images/team-3-2x.jpg 2x"
+              <img
+                srcset="./images/team-3.jpg 1x, ./images/team-3-2x.jpg 2x"
                 src="./images/team-3.jpg"
                 alt="Team"
                 width="264"
@@ -331,8 +335,8 @@
               </div>
             </li>
             <li>
-              <img srcset="./images/team-4.jpg 1x,
-              ./images/team-4-2x.jpg 2x"
+              <img
+                srcset="./images/team-4.jpg 1x, ./images/team-4-2x.jpg 2x"
                 src="./images/team-4.jpg"
                 alt="Team"
                 width="264"
@@ -572,7 +576,78 @@
           <button type="submit" class="modal-form-button">Send</button>
         </form>
       </div>
-    </div> 
+    </div>
+
+    <div class="mobile-menu js-menu-container">
+      <nav class="menu-navigation">
+        <ul class="menu-list list">
+          <li class="menu-item">
+            <a href="./index.html" class="menu-item-link text link">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a href="./portfolio.html" class="menu-item-link text link"
+              >Portfolio</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-item-link text link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="menu-address">
+        <ul class="menu-address-list list">
+          <li class="menu-address-list-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="menu-address-list-link text link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="menu-address-list-item">
+            <a href="tel:+110001111111" class="menu-address-list-link text link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="menu-social-list list">
+        <li class="menu-social-item">
+          <a href="" class="menu-social-link link">
+            <svg class="menu-social-icon">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-social-item">
+          <a href="" class="menu-social-link link">
+            <svg class="menu-social-icon">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-social-item">
+          <a href="" class="menu-social-link link">
+            <svg class="menu-social-icon">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-social-item">
+          <a href="" class="menu-social-link link">
+            <svg class="menu-social-icon">
+              <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button type="button" class="menu-close-button js-close-menu">
+        <svg class="menu-close-item">
+          <use href="./images/symbol-defs.svg#icon-close-button"></use>
+        </svg>
+      </button>
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
