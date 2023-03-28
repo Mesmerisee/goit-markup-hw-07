@@ -58,6 +58,9 @@
   .header-address-list-link:focus {
     color: #404bbf;
   }
+  .menu-open-button {
+    display: none;
+  }
   .hero-title {
     margin: 112px 136px 40px;
   }
