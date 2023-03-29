@@ -2,4 +2,29 @@
   .container {
     max-width: 428px;
   }
+  .hero {
+    background-size: 480px;
+  }
+  .hero-container {
+  }
+  .hero-title {
+    font-size: 36px;
+    width: 320px;
+    height: 80px;
+    margin-bottom: 72px;
+  }
+  .hero-button {
+    margin: auto;
+  }
+  .team-container {
+    max-width: 264px;
+  }
+  .team-title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .customers-link {
+    width: 168px;
+    height: 88px;
+  }
 }

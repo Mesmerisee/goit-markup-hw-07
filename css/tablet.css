@@ -1,10 +1,9 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 767px;
   }
-  .header-navigation {
-    display: flex;
-    align-items: center;
+  .menu-open-button {
+    display: none;
   }
   .header-list {
     display: flex;
@@ -41,8 +40,8 @@
   }
   .header-address-list {
     display: flex;
-    align-items: center;
-    gap: 40px;
+    flex-direction: column;
+    gap: 4px;
   }
   .header-address-list-item {
   }
@@ -58,22 +57,89 @@
   .header-address-list-link:focus {
     color: #404bbf;
   }
-  .menu-open-button {
-    display: none;
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 768px 100%;
+    padding: 112px 0;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2ddpx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-tab-2x.jpg);
+    }
   }
   .hero-title {
-    margin: 112px 136px 40px;
+    font-size: 56px;
+    width: 496px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-button {
+    margin: auto;
+  }
+  .services-subtitle {
+    font-weight: 700;
+    text-align: initial;
+  }
+  .footer-social {
+  }
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
   }
   .services-item {
     width: calc((100% - 24px) / 2);
   }
+  .team {
+    background: #f4f4fd;
+    padding: 96px 108px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+  }
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-  .customers-item {
-    width: calc((100% - 72px) / 3);
+  .team-content {
+    max-width: 264px;
   }
-  .footer-wrap {
+  .customers-item {
+    width: calc((100% - 24px) / 3);
+    margin-bottom: 72px;
+  }
+  .footer-wrap-tab {
     display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .subscribe-text {
+    text-align: start;
+  }
+  .modal {
+    width: 408px;
+    height: 584px;
   }
 }

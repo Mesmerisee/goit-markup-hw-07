@@ -21,7 +21,6 @@
     />
   </head>
   <body>
-    <!--  Header  -->
     <header class="header">
       <div class="container header-container">
         <a href="./index.html" class="header-link link"
@@ -91,11 +90,13 @@
                   <use href="./images/symbol-defs.svg#icon-strategy"></use>
                 </svg>
               </div>
-              <h3 class="services-subtitle">Strategy</h3>
-              <p class="services-description text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
+              <div class="services-block">
+                <h3 class="services-subtitle">Strategy</h3>
+                <p class="services-description text">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
             </li>
             <li class="services-item">
               <div class="services-icon-link">
@@ -103,11 +104,13 @@
                   <use href="./images/symbol-defs.svg#icon-punctuality"></use>
                 </svg>
               </div>
-              <h3 class="services-subtitle">Punctuality</h3>
-              <p class="services-description text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
+              <div class="services-block">
+                <h3 class="services-subtitle">Punctuality</h3>
+                <p class="services-description text">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </div>
             </li>
             <li class="services-item">
               <div class="services-icon-link">
@@ -115,11 +118,13 @@
                   <use href="./images/symbol-defs.svg#icon-diligence"></use>
                 </svg>
               </div>
-              <h3 class="services-subtitle">Diligence</h3>
-              <p class="services-description text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
+              <div class="services-block">
+                <h3 class="services-subtitle">Diligence</h3>
+                <p class="services-description text">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </div>
             </li>
             <li class="services-item">
               <div class="services-icon-link">
@@ -127,11 +132,13 @@
                   <use href="./images/symbol-defs.svg#icon-technologies"></use>
                 </svg>
               </div>
-              <h3 class="services-subtitle">Technologies</h3>
-              <p class="services-description text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
+              <div class="services-block">
+                <h3 class="services-subtitle">Technologies</h3>
+                <p class="services-description text">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -139,7 +146,7 @@
 
       <!-- Services pictures section -->
       <section class="gallery">
-        <div class="gallery-container container">
+        <div class="container">
           <h2 class="gallery-title">What are we doing</h2>
           <ul class="gallery-list list gallery-content">
             <li class="gallery-item">
@@ -181,8 +188,7 @@
           </ul>
         </div>
       </section>
-
-      <!-- Team section  -->
+      <!-- Team section -->
       <section class="team">
         <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
@@ -334,7 +340,7 @@
                 </ul>
               </div>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 srcset="./images/team-4.jpg 1x, ./images/team-4-2x.jpg 2x"
                 src="./images/team-4.jpg"
@@ -386,7 +392,7 @@
           </ul>
         </div>
       </section>
-      <!--Customers section -->
+      <!--Customers section  -->
       <section class="customers">
         <div class="container">
           <h2 class="customers-subtitle">Customers</h2>
@@ -437,11 +443,11 @@
           </ul>
         </div>
       </section>
-      <!-- footer  -->
     </main>
+    <!-- footer -->
     <footer class="footer">
       <div class="container footer-container">
-        <div class="footer-wrap">
+        <div class="footer-wrap-tab">
           <div class="footer-main-container">
             <a href="./index.html" class="footer-link link"
               ><span class="header-link-span">Web</span>Studio</a
@@ -494,6 +500,7 @@
               class="footer-input"
               placeholder="E-mail"
             />
+
             <button type="submit" class="footer-submit-button">
               Subscribe
               <svg class="telegram-button" width="24px" height="24px">
@@ -504,7 +511,7 @@
         </div>
       </div>
     </footer>
-    <!-- Modal  -->
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" data-modal-close class="modal-close-button">
@@ -577,76 +584,79 @@
         </form>
       </div>
     </div>
-
-    <div class="mobile-menu js-menu-container">
-      <nav class="menu-navigation">
-        <ul class="menu-list list">
-          <li class="menu-item">
-            <a href="./index.html" class="menu-item-link text link">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a href="./portfolio.html" class="menu-item-link text link"
-              >Portfolio</a
-            >
-          </li>
-          <li class="menu-item">
-            <a href="" class="menu-item-link text link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="menu-address">
-        <ul class="menu-address-list list">
-          <li class="menu-address-list-item">
-            <a
-              href="mailto:info@devstudio.com"
-              class="menu-address-list-link text link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="menu-address-list-item">
-            <a href="tel:+110001111111" class="menu-address-list-link text link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-      <ul class="menu-social-list list">
-        <li class="menu-social-item">
-          <a href="" class="menu-social-link link">
-            <svg class="menu-social-icon">
-              <use href="./images/symbol-defs.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="menu-social-item">
-          <a href="" class="menu-social-link link">
-            <svg class="menu-social-icon">
-              <use href="./images/symbol-defs.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="menu-social-item">
-          <a href="" class="menu-social-link link">
-            <svg class="menu-social-icon">
-              <use href="./images/symbol-defs.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="menu-social-item">
-          <a href="" class="menu-social-link link">
-            <svg class="menu-social-icon">
-              <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+    <!-- Menu -->
+    <div class="mobile-menu is-hidden js-menu-container">
       <button type="button" class="menu-close-button js-close-menu">
-        <svg class="menu-close-item">
+        <svg class="menu-close-item" width="8px" height="8px">
           <use href="./images/symbol-defs.svg#icon-close-button"></use>
         </svg>
       </button>
+      <div class="menu-container">
+        <nav class="menu-navigation">
+          <ul class="menu-list list">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-item-link text link">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="menu-item-link text link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-item-link text link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="menu-address">
+          <ul class="menu-address-list list">
+            <li class="menu-address-list-item">
+              <a
+                href="tel:+110001111111"
+                class="menu-address-list-phone text link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="menu-address-list-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="menu-address-list-link text link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-social-list list">
+          <li class="menu-social-item">
+            <a href="" class="menu-social-link link">
+              <svg class="menu-social-icon">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-social-item">
+            <a href="" class="menu-social-link link">
+              <svg class="menu-social-icon">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-social-item">
+            <a href="" class="menu-social-link link">
+              <svg class="menu-social-icon">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-social-item">
+            <a href="" class="menu-social-link link">
+              <svg class="menu-social-icon">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
