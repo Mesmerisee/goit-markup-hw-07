@@ -165,7 +165,7 @@ body {
 }
 /*---------------services---------------*/
 .services {
-  padding: 96px 16px;
+  padding: 96px 0px;
 }
 .services-container {
 }
@@ -182,14 +182,15 @@ body {
 }
 .services-subtitle {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 8px;
   font-weight: 500;
   text-align: center;
 }
 .services-description {
   color: var(--text-color);
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 16px;
 }
 /*---------------gallery---------------*/
 .gallery {
@@ -217,13 +218,14 @@ body {
   gap: 72px;
 }
 .team-item {
+  width: 264px;
 }
 .team-content {
   background: var(--secondary-title-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 .team-subtitle {
   font-size: 20px;
@@ -265,7 +267,7 @@ body {
 }
 /*---------------customers---------------*/
 .customers {
-  padding: 96px 16px;
+  padding: 96px 0px;
 }
 .customers-subtitle {
   font-size: 40px;
@@ -277,13 +279,13 @@ body {
 }
 .customers-list {
   display: flex;
+  gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 .customers-item {
   width: calc((100% - 16px) / 2);
-  margin-bottom: 72px;
 }
 
 .customers-item:focus {
@@ -303,6 +305,7 @@ body {
   transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0;
 }
 .customers-link:is(:hover, :focus) {
   color: #404bbf;
@@ -349,7 +352,6 @@ body {
   max-width: 264px;
 }
 .footer-social {
-  max-width: 208px;
 }
 .footer-subtitle {
   font-weight: 500;
@@ -364,6 +366,7 @@ body {
   display: flex;
   gap: 16px;
   align-items: center;
+  justify-content: center;
 }
 .footer-social-item {
 }
@@ -413,8 +416,8 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
-  min-width: 264px;
-  min-height: 40px;
+  width: 298px;
+  height: 40px;
   background-color: transparent;
   outline: transparent;
   padding: 8px 16px;

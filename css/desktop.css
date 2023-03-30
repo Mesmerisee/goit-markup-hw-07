@@ -38,10 +38,14 @@
   }
   .services {
     padding-top: 120px;
+    padding-bottom: 0;
   }
   .services-subtitle {
     font-weight: 500;
     font-size: 20px;
+  }
+  .services-description {
+    font-weight: 400;
   }
   .services-icon-link {
     display: flex;
@@ -59,9 +63,6 @@
     display: flex;
     flex-grow: 1;
     gap: 24px;
-  }
-  .services-subtitle {
-    font-size: 20px;
   }
   .services-item {
     width: calc((100% - 72px) / 4);
@@ -114,11 +115,17 @@
   }
   .footer-container {
     display: flex;
+    gap: 80px;
+    align-items: start;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
   }
   .footer-subscribe-form {
     display: flex;
     gap: 24px;
+  }
+  .footer-wrap-tab {
+    gap: 120px;
   }
 }
