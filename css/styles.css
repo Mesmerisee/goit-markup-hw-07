@@ -184,7 +184,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 8px;
-  font-weight: 500;
   text-align: center;
 }
 .services-description {
@@ -280,13 +279,13 @@ body {
 }
 .customers-list {
   display: flex;
-  gap: 16px;
+  row-gap: 72px;
+  column-gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 .customers-item {
-  width: calc((100% - 16px) / 2);
 }
 
 .customers-item:focus {
@@ -417,7 +416,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
-  width: 398px;
+  width: 298px;
   height: 40px;
   background-color: transparent;
   outline: transparent;
@@ -784,6 +783,9 @@ body {
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+}
+.current {
+  color: #404bbf;
 }
 .menu-container {
 }
