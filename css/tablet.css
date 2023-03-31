@@ -116,6 +116,7 @@
   }
   .team-item {
     width: calc((100% - 24px) / 2);
+    margin-bottom: 40px;
   }
   .team-content {
     max-width: 264px;
@@ -125,7 +126,7 @@
   }
   .customers-item {
     width: calc((100% - 24px) / 3);
-    margin-bottom: 72px;
+    margin-bottom: 48px;
   }
   .footer-container {
     padding: 0;
